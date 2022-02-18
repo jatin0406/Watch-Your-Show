@@ -104,7 +104,7 @@ export default function OrderModal({course, onClose, onSubmit, isNewPurchase}) {
                   type="text"
                   name="price"
                   id="price"
-                  className="disabled:opacity-50 w-80 mb-1 focus:ring-indigo-500 shadow-md focus:border-indigo-500 block pl-7 p-4 sm:text-sm border-gray-300 rounded-md"
+                  className="disabled:opacity-50 w-80 mb-1 focus:ring-yellow-800 shadow-md focus:border-yellow-800 block pl-7 p-4 sm:text-sm border-gray-300 rounded-md"
                 />
                 <p className="text-xs text-gray-700">
                   Price will be verified at the time of the order. If the price will be lower, order can be declined (+- 2% slipage is allowed)
@@ -126,7 +126,7 @@ export default function OrderModal({course, onClose, onSubmit, isNewPurchase}) {
                       type="email"
                       name="email"
                       id="email"
-                      className="w-80 focus:ring-indigo-500 shadow-md focus:border-indigo-500 block pl-7 p-4 sm:text-sm border-gray-300 rounded-md"
+                      className="w-80 focus:ring-yellow-800 shadow-md focus:border-yellow-800 block pl-7 p-4 sm:text-sm border-gray-300 rounded-md"
                       placeholder="x@y.com"
                     />
                     <p className="text-xs text-gray-700 mt-1">
@@ -147,7 +147,7 @@ export default function OrderModal({course, onClose, onSubmit, isNewPurchase}) {
                       type="email"
                       name="confirmationEmail"
                       id="confirmationEmail"
-                      className="w-80 focus:ring-indigo-500 shadow-md focus:border-indigo-500 block pl-7 p-4 sm:text-sm border-gray-300 rounded-md" placeholder="x@y.com" />
+                      className="w-80 focus:ring-yellow-800 shadow-md focus:border-yellow-800 block pl-7 p-4 sm:text-sm border-gray-300 rounded-md" placeholder="x@y.com" />
                   </div>
                 </>
               }

@@ -32,7 +32,7 @@ export const withToast = (promise) => {
                 href={`https://ropsten.etherscan.io/tx/${data.transactionHash}`}
                 target="_blank"
               >
-                <i className="text-indigo-600 underline">See Tx Details</i>
+                <i className="text-yellow-900 underline">See Tx Details</i>
               </a>
             </div>
           )

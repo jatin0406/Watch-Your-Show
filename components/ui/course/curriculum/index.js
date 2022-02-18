@@ -24,7 +24,7 @@ export default function Curriculum({locked, courseState, isLoading, lectures}) {
                 <thead className="bg-gray-50">
                   <tr>
                     <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Section 1
+                      Season 1
                     </th>
                     <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                       Status
@@ -66,7 +66,7 @@ export default function Curriculum({locked, courseState, isLoading, lectures}) {
                               { courseState === "deactivated" &&
                                 <Link href="/marketplace">
                                   <a
-                                    className="text-indigo-600 hover:text-indigo-900">
+                                    className="test-yellow-800 hover:text-yellow-900">
                                     Get Access
                                   </a>
                                 </Link>
@@ -82,7 +82,7 @@ export default function Curriculum({locked, courseState, isLoading, lectures}) {
                             </> :
                             <Link href="/watch">
                               <a
-                                className="text-indigo-600 hover:text-indigo-900">
+                                className="text-yellow-800 hover:text-yellow-900">
                                 Watch
                               </a>
                             </Link>

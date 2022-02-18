@@ -29,20 +29,20 @@ export default function Navbar() {
                   Marketplace
                 </a>
               </ActiveLink>
-              <ActiveLink href="/" >
+              {/* <ActiveLink href="/" >
                 <a
                   className="font-medium mr-8 text-gray-500 hover:text-gray-900">
                   Blogs
                 </a>
-              </ActiveLink>
+              </ActiveLink> */}
             </div>
             <div className="text-center">
-              <ActiveLink href="/wishlist" >
+              {/* <ActiveLink href="/wishlist" >
                 <a
                   className="font-medium sm:mr-8 mr-1 text-gray-500 hover:text-gray-900">
                   Wishlist
                 </a>
-              </ActiveLink>
+              </ActiveLink> */}
               { isLoading ?
                 <Button
                   disabled={true}
@@ -72,7 +72,7 @@ export default function Navbar() {
       { account.data &&
         !pathname.includes("/marketplace") &&
         <div className="flex justify-end pt-1 sm:px-6 lg:px-8">
-          <div className="text-white bg-indigo-600 rounded-md p-2">
+          <div className="text-white bg-yellow-900 rounded-md p-2">
             {account.data}
           </div>
         </div>

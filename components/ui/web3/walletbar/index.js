@@ -9,7 +9,7 @@ export default function WalletBar() {
   const { account, network } = useWalletInfo()
 
   return (
-    <section className="text-white bg-indigo-600 rounded-lg">
+    <section className="text-white bg-yellow-900 rounded-lg">
       <div className="p-8">
         <h1 className="text-base xs:text-xl break-words">Hello, {account.data}</h1>
         <h2 className="subtitle mb-5 text-sm xs:text-base">Watch some exciting movie and web series here</h2>

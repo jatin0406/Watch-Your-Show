@@ -18,7 +18,7 @@ const Item = ({title, value, className}) => {
 export default function ManagedCourseCard({children, course, isSearched = false}) {
 
   return (
-    <div className={`${isSearched ? "border-indigo-600" : "bg-gray-200"} bg-white border shadow overflow-hidden sm:rounded-lg mb-3`}>
+    <div className={`${isSearched ? "border-yellow-900" : "bg-gray-200"} bg-white border shadow overflow-hidden sm:rounded-lg mb-3`}>
       { Object.keys(course).map((key, i) =>
         <Item
           key={key}

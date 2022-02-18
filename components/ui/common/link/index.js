@@ -8,7 +8,7 @@ export default function ActiveLink({children, activeLinkClass, ...props}) {
   let className = children.props.className || ""
 
   if (pathname === props.href) {
-    className = `${className} ${activeLinkClass ? activeLinkClass : "text-indigo-600"}`
+    className = `${className} ${activeLinkClass ? activeLinkClass : "text-yellow-900"}`
   }
 
   return (
